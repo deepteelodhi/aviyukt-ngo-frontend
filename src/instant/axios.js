@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
- baseURL:'https://backend-y8ah.onrender.com', // Backend URL
-  withCredentials: true, // Cookies ko bhejne ke liye
+ baseURL:'http://localhost:8080', 
+  withCredentials: true, 
 });
 
 export default axiosInstance;
